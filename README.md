@@ -16,6 +16,16 @@ To write a python program to find the rank of a matrix
 
 
 ## Program:
+```
+#Program to find the rank of a matrix.
+#Developed by: P. Mahasri
+#RegisterNumber: 212223100029
+
+import numpy as np
+a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+rank=np.linalg.matrix_rank(a)
+print(rank)
+```
 ## Output:
 ![image](https://github.com/mahasri06/RANK-OF-A-MATRIX/assets/139841897/1abe2a77-1482-4eae-bbf1-e7a16d1ad317)
 
